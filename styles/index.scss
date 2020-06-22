@@ -1,0 +1,35 @@
+@import "variable.scss";
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+  font-family: $text-font;
+}
+
+.main-container {
+  background-color: white;
+  height: 100%;
+  overflow: hidden;
+}
+
+.textSectionFooter {
+  padding: 5px 15px;
+  background: #fff;
+  color: #5d5c61;
+  vertical-align: middle;
+  p {
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 1.5rem;
+    svg {
+      margin: 0 2px 0 10px;
+      color: #5d5c61;
+    }
+    a {
+      color: #5d5c61;
+      text-decoration: none;
+      &:hover {
+        color: #7395ae;
+      }
+    }
+  }
+}

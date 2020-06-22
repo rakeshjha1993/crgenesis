@@ -1,0 +1,39 @@
+.mainCarousel.carousel {
+  width: 100%;
+  overflow: hidden;
+  max-height: 725px;
+  .carousel-indicators {
+    display: none;
+  }
+  a {
+    display: none;
+  }
+  .carousel-inner {
+    height: 100%;
+
+    .carousel-item {
+      .image {
+        position: relative;
+      }
+      .image {
+        overflow: hidden;
+        vertical-align: top;
+      }
+      // .image:after,
+      // .image:before {
+      //   position: absolute;
+      //   opacity: 1;
+      //   transition: all 0.5s;
+      //   -webkit-transition: all 0.5s;
+      // }
+      // .image:after {
+      //   content: "\A";
+      //   width: 100%;
+      //   height: 100%;
+      //   top: 0;
+      //   left: 0;
+      //   background: rgba(0, 0, 0, 0.6);
+      // }
+    }
+  }
+}

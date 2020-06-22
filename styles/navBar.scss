@@ -1,0 +1,12 @@
+@import "variable.scss";
+.navbar-header-row {
+  background-color: $white;
+  nav {
+    a.navbar-brand {
+      color: #ff5e53;
+      &:hover {
+        color: $hyperlink-color;
+      }
+    }
+  }
+}
